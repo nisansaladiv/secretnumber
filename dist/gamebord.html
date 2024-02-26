@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../src/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-[#010018]">
+<header class="flex items-center justify-between bg-[#07082B] max-sm:[100%]">
+    <img src="../src/img/logo.png" class="pt-5 pb-5 ml-5 " alt="" srcset="" style="width: 30px;">
+<div class="flex mr-5 text-white text-[18px] gap-5">
+    <a href="#"><img src="../src/img/colors.png" alt="" srcset="" class=" w-[50px]" id="btnColors"></a>
+    
+</div>
+
+</header>
+<div class="flex flex-col w-[100%] justify-end" id="colorP">
+   
+        <ul class="justify-end hidden pl-3 pr-3" id="colorList">
+            <li class="p-5 bg-[#e11d48] cursor-pointer" id="li0"></li>
+            <li class="p-5 bg-[#d946ef] cursor-pointer" id="li1"></li>
+            <li class="p-5 bg-[#6d28d9] cursor-pointer" id="li2"></li>
+            <li class="p-5 bg-[#84cc16] cursor-pointer" id="li3"></li>
+            <li class="p-5 bg-[#0d9488] cursor-pointer" id="li4"></li>
+            <li class="p-5 bg-[#3b82f6] cursor-pointer" id="li5"></li>
+        </ul>
+    
+    </div>
+<div class="text-[#fff] mt-10 pl-16 w-auto max-sm:pl-0">
+  <button id="buttonAdd">  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 bg-purple-600 cursor-pointer">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+  </svg></button>
+  </div>
+  
+<div id="gam-buttons" class="flex  flex-wrap w-[450px] gap-2 mt-10 pl-16 pr-16">
+</div>
+ <div class="mt-10 w-[100%]  items-center justify-center hidden" id="btn-msgbox">
+<div class="w-[300px] flex justify-center items-center flex-col" style="background-color: #050120; height: 150px;">
+<img src="../src/img/logo.png" alt="" class="w-[30px]">
+<p class="mt-3 text-[#fff]" id="msg-text"></p>
+<img src="../src/img/cong.gif" alt="" srcset="" class="hidden" id="imgGif">
+<div class="flex justify-evenly w-[100%] mt-5">
+    <a href="../index.html"><button class="bg-[#FF3535] w-[60px] h-[28px] rounded-full text-[#fff] border-none" id="btnExit">Exit</button> </a>
+    <button class="bg-[#FF3535] w-[60px] h-[28px] rounded-full text-[#fff] border-none" id="try">Try</button>
+</div>
+</div>
+</div>
+
+
+<script src="./script.js"></script>
+
+</body>
+</html>

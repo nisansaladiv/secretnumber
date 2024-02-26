@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body style="background-color: #010018; background-size: cover; box-sizing: content-box;">
+  <style>
+    img{
+      animation: mymove 5s infinite;
+    }
+    @keyframes mymove {
+  50% {transform: rotate(180deg);}
+}
+  </style>
+<audio id="musicplayer" autoplay>
+  <source src="./src/audio/theam.mp3" />
+</audio>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column;">
+  <img src="./src/img/logo.png" alt=""  style="width: 150px;">
+  <a href="./dist/gamebord.html"><button style="padding-left: 100px; padding-right: 100px; padding-top: 10px; padding-bottom: 10px; margin-top: 30px; margin-bottom: 10px; position: relative;
+  border: none; background-color: #FF5C00; color: #ffffff;cursor: pointer;
+  font-weight: 600; font-size: 14px; border-radius: 50px;">Play</button></a>
+    </div>
+
+    <script>
+     document.getElementById("audioID").autoplay = true;
+      </script>
+</body> 
+</html>
